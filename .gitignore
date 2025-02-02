@@ -1,5 +1,4 @@
 node_modules
-backend/controller
 backend/middleware
 backend/models
 backend/routes
