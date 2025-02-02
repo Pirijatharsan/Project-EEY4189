@@ -1,3 +1,6 @@
 node_modules
-backend/config
-backend/
+backend/controller
+backend/middleware
+backend/models
+backend/routes
+backend/utils
