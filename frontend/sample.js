@@ -1,0 +1,11 @@
+//dfcasdnvadfvnfjnfg nj
+
+PORT = 5000
+MONGO_URL =
+  'mongodb+srv://rpirijatharsan:gwbFx5lKWXExdnOG@cluster0.1ioua.mongodb.net/RestaurantQuick_Cusine?retryWrites=true&w=majority&appName=Cluster0'
+JWT_SECRET = abcdgsfjg35343vjghedx
+NODE_ENV = development
+PAYPAL_CLIENT_ID =
+  AXgTlqeHxEIl0ndP -
+  lYEac92Opo5uQgXKRrLukt89vaRG17 -
+  EWd7NeuOsRyHbfdnozbPxIqFAlEt2w1R
