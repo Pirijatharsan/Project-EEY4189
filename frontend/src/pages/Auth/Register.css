@@ -7,22 +7,20 @@
 }
 
 .register_from {
-  /* Slightly lighter for contrast */
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   max-width: 420px;
   width: 100%;
-  /* background-color: #2c2c2c; */
 }
 
 .register_header {
-  /* color: #ffcc00; Bold yellow header */
   text-align: center;
   font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
+  margin-bottom: 0rem;
 }
 
 .form_container {
