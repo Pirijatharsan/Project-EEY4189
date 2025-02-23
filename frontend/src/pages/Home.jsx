@@ -2,6 +2,7 @@
 import { Link, useParams } from 'react-router-dom'
 import {
   useGetProductsQuery,
+  useGetTopProductsQuery,
   useAllProductsQuery,
 } from '../redux/api/productApiSlice'
 import Loader from '../Components/Loader'
@@ -11,7 +12,7 @@ import Product from './Products/Product'
 
 const Home = () => {
   const { keyword } = useParams()
-  const { data, isLoading, isError } = useAllProductsQuery()
+  const { data, isLoading, isError } = useGetTopProductsQuery()
   console.log(data)
   return (
     <>
