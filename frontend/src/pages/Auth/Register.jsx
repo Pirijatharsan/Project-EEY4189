@@ -66,7 +66,7 @@ const Register = () => {
   }
 
   return (
-    <section className="register_container mt-16">
+    <section className="register_container mt-15">
       <div className="register_from ">
         <h1 className="register_header ">Register</h1>
 
