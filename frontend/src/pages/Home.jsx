@@ -2,6 +2,7 @@
 import { Link, useParams } from 'react-router-dom'
 import {
   useGetProductsQuery,
+  useGetTopProductsQuery,
   useAllProductsQuery,
 } from '../redux/api/productApiSlice'
 import Loader from '../Components/Loader'
@@ -11,7 +12,7 @@ import Product from './Products/Product'
 
 const Home = () => {
   const { keyword } = useParams()
-  const { data, isLoading, isError } = useAllProductsQuery()
+  const { data, isLoading, isError } = useGetTopProductsQuery()
   console.log(data)
   return (
     <>
@@ -37,8 +38,8 @@ const Home = () => {
           <div className="mt-8">
             <div className="flex justify-around flex-wrap gap-6 mt-[2rem] mb-2 px-4">
               {data.length > 0 ? (
-                data.slice(0, 20).map((product) => (
-                  <div key={product._id} className="mb-6">
+                data.slice(0, 8).map((product) => (
+                  <div key={product._id} className="mb-2">
                     <Product product={product} />
                   </div>
                 ))
